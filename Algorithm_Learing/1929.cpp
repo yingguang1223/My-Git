@@ -22,10 +22,11 @@ int main()
     Solution s;
     vector<int>nums={1,2,1};
     vector<int>res=s.getConcatenation(nums);
-    for(int i=0;i<res.size();i++)
+    for(int value:res)
     {
-        cout<<res[i]<<" ";
+        cout<<value<<" ";
     }
+    cout<<'\n';
     return 0;
 }
 
